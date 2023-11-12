@@ -5,7 +5,7 @@
 /* Step 2 - Variables */
 
 const fullName = "Julio Reyes";
-const currentYear = new Date().getFullYear;
+const currentYear = "2023";
 const profilePicture = "images/profile_picture.jpg";
 
 /* Step 3 - Element Variables */
@@ -18,7 +18,7 @@ const imageElement = document.querySelector("img");
 /* Step 4 - Adding Content */
 
 nameElement.innerHTML = `<strong>${fullName}</strong>`;
-currentYear.textContent = 2023;
+yearElement.textContent = currentYear;
 imageElement.setAttribute("src", profilePicture);
 imageElement.setAttribute("alt", `Profile image of ${fullName}`);
 
