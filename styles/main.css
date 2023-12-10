@@ -279,6 +279,148 @@ footer {
     margin: .5rem;
 }
 
+/* Project */
+
+#pokemons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: .5rem;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+#pokemons article {
+    height: 280px;
+    margin: .5rem;
+    border: 10px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+#pokemons h3 {
+    margin-bottom: 0;
+    color: navy;
+}
+
+#pokemons img {
+    width: 200px;
+    height: auto;
+}
+
+#pokemons div {
+    margin-top: -25px;
+}
+#pokemons input {
+    width: 100px;
+    margin: 0px 10px;
+}
+
+#favorites {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: .5rem;
+    align-items: left;
+    margin-bottom: 3rem;
+}
+
+#favorites article {
+    height: 280px;
+    margin: .5rem;
+    border: 10px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+#favorites h3 {
+    margin-bottom: 0;
+    color: navy;
+}
+
+#favorites img {
+    width: 200px;
+    height: auto;
+}
+
+#favorites div {
+    margin-top: -25px;
+}
+#favorites input {
+    width: 100px;
+    margin: 0px 10px;
+}
+
+#buttonBox {
+    width: 608px;
+    margin: auto;
+}
+
+#clearList {
+    appearance: none;
+    padding: .5rem;
+    background-color: #eee;
+    color: #444;
+    font-weight: 700;
+    margin: 1rem auto;
+    width: 200px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#PsortBy {
+    appearance: none;
+    padding: .5rem;
+    background-color: #eee;
+    color: #444;
+    font-weight: 700;
+    margin: 1rem auto;
+    width: 200px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#PsortBy option:disabled {
+    font-style: italic;
+    padding: 1rem;
+    background-color: #111;
+    color: #eee;
+}
+
+#PsortByType {
+    appearance: none;
+    padding: .5rem;
+    background-color: #eee;
+    color: #444;
+    font-weight: 700;
+    margin: 1rem auto;
+    width: 200px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#PsortByType option:disabled {
+    font-style: italic;
+    padding: 1rem;
+    background-color: #111;
+    color: #eee;
+}
+
+
 /* Media Queries */
 @media only screen and (min-width: 32.5em) {
     nav ul {
